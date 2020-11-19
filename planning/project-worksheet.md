@@ -2,9 +2,9 @@
 
 ## Project Links
 
--   [Netlify-(coming soon)](https://github.com/adgreenie/react.git)
+-   [Netlify-(coming soon)]()
 -   [User Stories](https://res.cloudinary.com/dusr8fbuo/image/upload/v1605813570/IMG_0083_smsgey.heic)
--   [Task Management-(coming soon)](https://answer10.web.app/)
+-   [Task Management-(coming soon)]()
 -   [Models & Properties](https://res.cloudinary.com/dusr8fbuo/image/upload/v1605813586/IMG_0085_kcf4zt.heic)
 
 ## Project Description
@@ -16,7 +16,7 @@ This project is an application used to simplify and organize. With this applicat
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 -   [wireframes](https://res.cloudinary.com/dusr8fbuo/image/upload/v1605813593/IMG_0084_wn3d5m.heic)
--   [react architecture-(coming soon)](https://sitemap.mockflow.com/view/green-proj2-architecture)
+-   [react architecture-(coming soon)]()
 
 ## MVP/PostMVP
 
@@ -45,16 +45,16 @@ Time frames are also key in the development cycle. You have limited time to code
 
 Unless otherwise noted, time is listed in hours:
 
-| Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
-| ---------------------------- | :------: | :------------: | :------------: | :---------: |
-| Overall Project Planning     |    H     |                |                |             |
-| Backend Planning (Rails)     |    H     |                |                |             |
-| React planning/ architecture |    H     |                |                |             |
-|                              |    H     |                |                |             |
-|                              |    H     |                |                |             |
-|                              |    H     |                |                |             |
-|                              |    H     |                |                |             |
-| Total                        |    H     |                |                |             |
+| Component                    | Priority | Estimated Time | Time Invested | Actual Time |
+| ---------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Overall Project Planning     |    H     |                |               |             |
+| Backend Planning (Rails)     |    H     |                |               |             |
+| React planning/ architecture |    H     |                |               |             |
+|                              |    H     |                |               |             |
+|                              |    H     |                |               |             |
+|                              |    H     |                |               |             |
+|                              |    H     |                |               |             |
+| Total                        |          |                |               |             |
 
 ## Additional Libraries
 
