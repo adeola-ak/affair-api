@@ -2,10 +2,10 @@
 
 ## Project Links
 
--   [Netlify](https://github.com/adgreenie/react.git)
--   [User Stories](https://github.com/adgreenie/react.git)
--   [Task Management](https://answer10.web.app/)
--   [Models & Properties](https://answer10.web.app/)
+-   [Netlify-(coming soon)](https://github.com/adgreenie/react.git)
+-   [User Stories](https://res.cloudinary.com/dusr8fbuo/image/upload/v1605813570/IMG_0083_smsgey.heic)
+-   [Task Management-(coming soon)](https://answer10.web.app/)
+-   [Models & Properties](https://res.cloudinary.com/dusr8fbuo/image/upload/v1605813586/IMG_0085_kcf4zt.heic)
 
 ## Project Description
 
@@ -15,27 +15,29 @@ This project is an application used to simplify and organize. With this applicat
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
--   [wireframes](https://wireframepro.mockflow.com/view/green-proj2-wireframe)
--   [react architecture](https://sitemap.mockflow.com/view/green-proj2-architecture)
+-   [wireframes](https://res.cloudinary.com/dusr8fbuo/image/upload/v1605813593/IMG_0084_wn3d5m.heic)
+-   [react architecture-(coming soon)](https://sitemap.mockflow.com/view/green-proj2-architecture)
 
-## MVP/PostMVP - 5min
+## MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
 
 #### MVP EXAMPLE
 
--   Fully functional, interactive, trivia game
-    -   Questions/possible answers populated by API call
-    -   Tells player if selected answer is correct
-    -   Keeps track of score
--   Navbar with options that link to their corresponding pages
--   Options page that allows player to select trivia theme/difficulty
--   Instructions page
+-   User log in/accounts
+-   User can perform full CRUD on an items in their closet
+-   User can favorite items
+-   User can sort/filter through their closet
+-   Closet can "turn the lights on" with light or dark mode
+-   New users have an item added to their closet by default
 
 #### PostMVP EXAMPLE
 
--   Leaderboard that is updated using Firebase
--   Create multiple leaderboards depending on selected difficulty
+-   Accounts have a profile page
+-   User can upload from device without needing to add URL link
+-   Public/ private accounts
+-   Search for other users profiles
+-   Closet animations and light/dark mode
 
 ## Time frames
 
@@ -45,48 +47,17 @@ Unless otherwise noted, time is listed in hours:
 
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |
-| Overall Project Planning     |    H     |       1        |     40min      |    40min    |
-| Backend Planning (Rails)     |    H     |       1        |     45min      |    45min    |
-| React planning/ architecture |    H     |       1        |     30min      |    30min    |
-|                              |    H     |       2        |      1.5       |     1.5     |
-|                              |    H     |       3        |       4        |      4      |
-|                              |    H     |       1        |     35min      |    35min    |
-|                              |    H     |       1        |       1        |      1      |
-| Total                        |    H     |       45       |       44       |     44      |
+| Overall Project Planning     |    H     |                |                |             |
+| Backend Planning (Rails)     |    H     |                |                |             |
+| React planning/ architecture |    H     |                |                |             |
+|                              |    H     |                |                |             |
+|                              |    H     |                |                |             |
+|                              |    H     |                |                |             |
+|                              |    H     |                |                |             |
+| Total                        |    H     |                |                |             |
 
 ## Additional Libraries
 
-ReactStrap - responsive navbar, progress bar for game
-Firebase - updating and retrieving leaderboard
+Materialize
 
 ## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description. Code snippet should not be greater than 10 lines of code.
-
-The below code is how the leaderboard is populated. The shorter the name, the more dots are added between the name and score. The font size is set progressively smaller for each entry.
-
-```
-let fontSize = props.gameView ? 24 : 42
-
-scoreList = props.highScores.map((highScore, i) => {
-	let dots = ' . . . '
-	for (let j = highScore.name.length; j < 12; j += 2) {
-		dots += '. '
-	}
-	if (i > 0) {
-		let mult = (i < 3 ? 2 : 1)
-		props.gameView ? fontSize -= 1 * mult : fontSize -= 3 * mult
-	}
-```
-
-...
-
-```
-	return (
-		<li style={{fontSize: `${fontSize}px`, color: color}} key={i}>
-			<span className="bold">{`${i + 1}) `}</span>
-			{highScore.name} {dots} {highScore.score}
-		</li>
-	)
-})
-```
