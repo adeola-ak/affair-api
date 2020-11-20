@@ -36,6 +36,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 -   Accounts have a profile page
 -   User can upload from device without needing to add URL link
 -   Public/ private accounts
+-   Public/ private items
 -   Search for other users profiles
 -   Closet animations and light/dark mode
 
