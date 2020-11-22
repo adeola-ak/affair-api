@@ -60,5 +60,6 @@ Unless otherwise noted, time is listed in hours:
 ## Additional Libraries
 
 Materialize
+Styled Components
 
 ## Code Snippet
