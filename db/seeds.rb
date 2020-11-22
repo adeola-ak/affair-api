@@ -13,4 +13,9 @@ Item.create(designer: "Princess Polly", item_type: "Dress", subtype: "Sleeveless
 
 Item.create(designer: "Jefferey Campbell", item_type: "Boots", subtype: "Ankle Boots", description: "Block Heel Ankle Boots", color: "Olive-Green", season: "Fall 2020", url: "https://cdn.shopify.com/s/files/1/1439/1602/products/maximal-lo-heeled-bootie-yyh-dark-green-6-746012_2400x.jpg?v=1601663348", favorite: true, user_id: 1)
 
+
+Item.create(designer: "Topshop", item_type: "Jacket", subtype: "Leather Jacket", description: "Moto Leather Jacket", color: "Black", season: "Fall 2020", url: "https://n.nordstrommedia.com/id/sr3/cf6dbad6-697a-432b-94bc-5d13d4e83bb1.webp?crop=pad&pad_color=FFF&format=jpeg&w=60&h=90&dpr=2", favorite: true, user_id: 1)
+
+Item.create(designer: "Jefferey Campbell", item_type: "Heels", subtype: "Wedge Mule", description: "Clear Wedge Heel", color: "Clear", season: "Summer 2020", url: "https://n.nordstrommedia.com/id/sr3/84614aa7-2e56-4f96-8303-9aa5ace9a76a.webp?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=60&h=90&dpr=2", favorite: true, user_id: 1)
+
 puts "seeded"
