@@ -12,6 +12,11 @@ class UsersController < ApplicationController
     end
   end
 
+  # VIEW USERS
+  def show
+    render json: User.all
+  end
+
   # LOGGING IN
   def login
     @user = User.find_by(username: params[:username])
@@ -32,7 +37,7 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.permit(:username, :password, :age)
+    params.permit(:username, :password, :name, :gender, :style)
   end
 
 end

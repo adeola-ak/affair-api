@@ -28,6 +28,8 @@ class ItemsController < ApplicationController
 
   # PATCH/PUT /items/1
   def update
+    @item = Item.find(params[:id])
+
     if @item.update(item_params)
       render json: @item
     else
@@ -37,6 +39,7 @@ class ItemsController < ApplicationController
 
   # DELETE /items/1
   def destroy
+    @item = Item.find(params[:id])
     @item.destroy
   end
 
