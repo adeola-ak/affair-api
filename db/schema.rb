@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_19_212431) do
+ActiveRecord::Schema.define(version: 2020_11_20_200606) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "items", force: :cascade do |t|
     t.string "designer"
-    t.string "type"
+    t.string "item_type"
     t.string "subtype"
     t.string "description"
     t.string "color"
