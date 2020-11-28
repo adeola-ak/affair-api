@@ -82,6 +82,7 @@ test:
 #
 production:
     <<: *default
-    database: affair_api_production
-    username: affair_api
-    password: <%= ENV['AFFAIR_API_DATABASE_PASSWORD'] %>
+    # database: affair_api_production
+    # username: affair_api
+    # password: <%= ENV['AFFAIR_API_DATABASE_PASSWORD'] %>
+    url: <%= ENV['DATABASE_URL'] %>
