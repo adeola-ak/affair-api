@@ -51,6 +51,6 @@ class ItemsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def item_params
-      params.require(:item).permit(:designer, :item_type, :subtype, :description, :color, :season, :url, :favorite, :user_id)
+      params.require(:item).permit(:designer, :item_type, :subtype, :description, :color, :season, :year,:url, :favorite, :user_id)
     end
 end
