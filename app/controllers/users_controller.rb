@@ -1,6 +1,11 @@
 class UsersController < ApplicationController
   before_action :authorized, only: [:auto_login]
 
+
+  def home
+    render json: {message: "well...this is awkward"}
+  end
+
   # REGISTER
   def create
     @user = User.create(user_params)
